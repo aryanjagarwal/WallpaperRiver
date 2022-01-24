@@ -20,14 +20,17 @@ class _HomeState extends State<Home> {
         children: <Widget>[
           Container(
             decoration: BoxDecoration(
-              color: Color(0xfff5f8fd)
+              color: Color(0xfff5f8fd),
+              borderRadius:  BorderRadius.circular(30)
             ),
+            padding: EdgeInsets.symmetric(horizontal: 24),
             margin: EdgeInsets.symmetric(horizontal: 24),
             child: Row(children: <Widget>[
               Expanded(
                 child: TextField(
                   decoration: InputDecoration(
-                    hintText: "Search Here"
+                    hintText: "Search Here",
+                    border: InputBorder.none
                   ),
                 ),
               ),

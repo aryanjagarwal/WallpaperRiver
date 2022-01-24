@@ -5,6 +5,6 @@ Widget brandName(){
     mainAxisAlignment: MainAxisAlignment.center,
     children: <Widget>[
     Text("Wallpaper", style: TextStyle(color: Colors.black87),),
-    Text("Hub", style: TextStyle(color: Colors.blue)),
+    Text("River", style: TextStyle(color: Colors.blue)),
     ],);
 }
