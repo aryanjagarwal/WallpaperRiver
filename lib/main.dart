@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:wallpaperriver/views/home.dart';
+import 'package:wallpaper/home.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your apon.
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'WallpaperRiver',
+      title: 'Wallpaper River',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.white,
       ),
@@ -18,5 +19,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-//   api = 563492ad6f9170000100000112cf082066f74d25a682ec4abaf4a461
-// resume at 23:54
