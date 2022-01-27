@@ -1,5 +1,7 @@
 # wallpaperriver
 
+![flutter_logo_leg](https://user-images.githubusercontent.com/68804795/150906928-e6b93c05-1826-45be-9350-662df593782c.gif)
+
 A new Flutter project.
 
 ## Getting Started
